@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: blueviolet;
+
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    
+}
+.background .container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+.panel pricing-table .pricing-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    background-color: red;
+}
